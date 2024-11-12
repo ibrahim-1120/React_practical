@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.search .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.btn ul {
+    color: rgb(0, 0, 0);
+    display: flex;
+    border: 1px solid;
+    gap: 20px;
+    padding: 5px 40px;
+    margin: 193px;
+}
+
+.number {
+    padding: 150px;
+    display: flex;
+    gap: 30px;
+}
+
+.shoping {
+    position: relative;
+    padding: 3px;
+}
+
+.circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    top: 0;
+    right: 0;
+    background-color: green;
+    color: white;
+}
+
+.acc {
+    padding-left: 10px;
+}

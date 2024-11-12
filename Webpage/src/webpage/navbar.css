@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .btn .button {
+    background-color: rgb(71, 232, 71);
+}
+
+.navbar .btn {
+    padding-left: 50px;
+}
+
+.ico {
+    padding-left: 20px;
+}
+
+.header .eng ul {
+    display: flex;
+    gap: 25px;
+}
+
+.name ul {
+    display: flex;
+    padding-left: 20px;
+    gap: 40px;
+}
+
+.call {
+    padding-left: 150px;
+}
