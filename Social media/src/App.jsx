@@ -1,19 +1,30 @@
 
-import React from 'react'
-import Header from './component/Header'
-import Footer from './component/Footer'
-import Sidebar from './component/Sidebar'
-import './App.css'
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Sidebar from "./components/Sidebar"
+import "./App.css"
+import CreatePost from "./components/CreatePost"
+import ListPost from "./components/ListPost"
+import { useState } from "react"
+import PostListContextProvider from "./store/postList-store"
+import { Outlet } from "react-router-dom"
 
-export default function App() {
-  return (
-    <div className='item_container'>
-      <Sidebar></Sidebar>
-      <div>
+const App = () => {
 
-        <Header></Header>
-        <Footer></Footer>
-      </div>
+
+    const [selectedTab, setSelectedTab] = useState("Home")
+
+    return <div className="item-container">
+        <PostListContextProvider>
+            <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab}></Sidebar>
+            <div className="content">
+                <Header></Header>
+                <Outlet></Outlet>
+                <Footer></Footer>
+            </div>
+        </PostListContextProvider>
     </div>
-  )
 }
+
+
+export default App

@@ -1,3 +1,7 @@
-.item_container {
+.item-container {
     display: flex;
+}
+
+.item {
+    width: 100%;
 }
