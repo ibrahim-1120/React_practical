@@ -1,3 +1,4 @@
+
 function generateCaptcha(length) {
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 
