@@ -1,32 +1,11 @@
 {
-    "posts": [
-        {
-            "id": "1",
-            "username": "ibrahim",
-            "email": "ibrahim@gmail.com",
-            "passward": "123",
-            "phone": "1234567891"
-        },
-        {
-            "id": "9b68",
-            "username": "me",
-            "email": "me@gmail.com",
-            "phone": "09876543212",
-            "passward": "123"
-        },
-        {
-            "id": "c80d",
-            "username": "add",
-            "email": "add@gmail.com",
-            "phone": "9876537797",
-            "passward": "6547"
-        },
-        {
-            "id": "c7a2",
-            "username": "",
-            "email": "",
-            "phone": "",
-            "passward": ""
-        }
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "username": "ibrahim",
+      "email": "ibrahim@gmail.com",
+      "passward": "123",
+      "phone": "1234567891"
+    }
+  ]
 }
